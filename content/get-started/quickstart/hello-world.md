@@ -140,6 +140,32 @@ In this walk-through, you should not have any conflicts, so you are ready to mer
 1. Click **Confirm merge**. You will receive a message that the request was successfully merged and the request was closed.
 1. Click **Delete branch**. Now that your pull request is merged and your changes are on `main`, you can safely delete the `readme-edits` branch. If you want to make more changes to your project, you can always create a new branch and repeat this process.
 
+## Adding a Collaborator to your project
+Here are the steps for adding a collaborator on GitHub:
+
+1. Navigate to your GitHub repository.
+
+2. Click on the "Settings" tab, located near the right side of the repository navigation bar.
+
+3. In the left sidebar, select "Manage access."
+
+4. Scroll down to the "Collaborators" section.
+
+5. In the "Collaborators" field, start typing the GitHub username or email of the person you want to add as a collaborator.
+
+6. GitHub will suggest users matching your input. Click on the correct user from the suggestions.
+
+7. Choose the appropriate role for the collaborator:
+   - **Write:** Allows pushing changes to the repository.
+   - **Maintain:** Additionally allows managing repository settings.
+   - **Admin:** Provides full administrative access.
+
+8. Click the "Add [username]" button to add the collaborator.
+
+9. The collaborator will receive an email invitation. Once they accept the invitation, they will have access to the repository according to the chosen role.
+
+That's it! The collaborator is now added to your GitHub repository.
+
 ## Next steps
 
 By completing this tutorial, you've learned to create a project and make a pull request on {% data variables.product.product_name %}.
